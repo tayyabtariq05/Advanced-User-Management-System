@@ -1,7 +1,6 @@
 <?php
 include_once 'connect.php';
 
-// Fetch all users from the database
 $sql = "SELECT * FROM registration ORDER BY id DESC";
 $result = mysqli_query($conn, $sql);
 ?>
